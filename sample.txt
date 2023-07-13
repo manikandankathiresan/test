@@ -24,3 +24,5 @@ const factorial=(num)=>{
 }
 
 var github = "cloud platform"
+const multiply = () => 5 * 11 ;
+const divide = () => 77/7;
