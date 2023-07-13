@@ -23,6 +23,12 @@ const factorial=(num)=>{
     }
 }
 
+var github = "cloud platform"
+const multiply = () => 5 * 11 ;
+const divide = () => 77/7;
+
+const squareNumber = () => 3*3 ;
+
 const inBuildFunctions=()=>{
     console.log(number.toString())
     console.log(string.toUpperCase())
