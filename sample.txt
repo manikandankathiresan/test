@@ -16,4 +16,11 @@ data();
 
 const github = () => 5 + 6 ; 
 
+const factorial=(num)=>{
+    let fact=1
+    for(let i=1;i<=num;i++){
+        return fact=fact*1
+    }
+}
+
 var github = "cloud platform"
