@@ -46,6 +46,10 @@ const arrowFunction=()=>console.log("No need to use return keyword for single li
 hi sathish. welcome
 
 
+const powerFunction=(a)=>a**a
+
+const formSubmissionFunction=(e)=>e.target.value
+
 //division
 
 const division =(a,b)=>{
@@ -64,3 +68,9 @@ const multiplication=(a,b)=>{
     return a*b
 }
 multiplication(10,20)
+
+//Exponenatial
+const exponenatial=(a,b)=>{
+    return a**b
+}
+exponenatial(10,2)
