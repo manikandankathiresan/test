@@ -42,7 +42,7 @@ const inBuildFunctions=()=>{
 
 const arrowFunction=()=>console.log("No need to use return keyword for single line fn")
 
-const maribro = () =>  return 99+ 89 ;
+
 const class = "gitwork test";
 changes add by sathish
 const conflict = () => {
