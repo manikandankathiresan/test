@@ -11,3 +11,5 @@ const data = () => {
     return name 
 }
 data();
+
+const github = () => 5 + 6 ; 
