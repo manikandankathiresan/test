@@ -1,1 +1,9 @@
 1. Start new
+
+//Multiplication
+
+const multiply=(a,b)=>{
+    return a*b;
+};
+
+const greetFunction=()=>console.log("Good evening")
