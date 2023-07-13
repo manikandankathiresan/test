@@ -22,3 +22,10 @@ const factorial=(num)=>{
         return fact=fact*1
     }
 }
+
+const inBuildFunctions=()=>{
+    console.log(number.toString())
+    console.log(string.toUpperCase())
+}
+
+const arrowFunction=()=>console.log("No need to use return keyword for single line fn")
