@@ -1,2 +1,5 @@
 hii
-new text
+console.log("First Entry")
+sample two deleted
+console.log("First Entry")
+sample two deleted
