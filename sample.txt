@@ -41,3 +41,5 @@ hi sathish. welcome
 
 
 const powerFunction=(a)=>a**a
+
+const formSubmissionFunction=(e)=>e.target.value
