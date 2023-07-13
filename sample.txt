@@ -40,6 +40,4 @@ const arrowFunction=()=>console.log("No need to use return keyword for single li
 hi sathish. welcome
 
 
-const powerFunction=(a)=>a**a
 
-const formSubmissionFunction=(e)=>e.target.value
