@@ -58,12 +58,7 @@ hi sathish. welcome
 
 const formSubmissionFunction=(e)=>e.target.value
 
-//division
 
-const division =(a,b)=>{
-    return a/b
-}
-division(10/20)
 
 //addition
 const addition =(a,b)=>{
