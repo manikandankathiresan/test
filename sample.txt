@@ -77,8 +77,4 @@ const multiplication=(a,b)=>{
 }
 multiplication(10,20)
 
-//Exponenatial
-const exponenatial=(a,b)=>{
-    return a**b
-}
-exponenatial(10,2);
+
