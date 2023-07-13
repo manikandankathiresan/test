@@ -7,3 +7,11 @@ const multiply=(a,b)=>{
 };
 
 const greetFunction=()=>console.log("Good evening")
+
+const data = () => {
+    let name = "sathish"
+    return name 
+}
+data();
+
+const github = () => 5 + 6 ; 
