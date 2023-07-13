@@ -1,13 +1,9 @@
 1. Start new
-const add = (a,b) => {
- let sum;
- sum = a + b;
- return sum;
-}
-add(5,5);
 
-const data = () => {
-    let name = "sathish"
-    return name 
-}
-data();
+//Multiplication
+
+const multiply=(a,b)=>{
+    return a*b;
+};
+
+const greetFunction=()=>console.log("Good evening")
