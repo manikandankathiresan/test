@@ -32,9 +32,16 @@ var github = "cloud platform"
 const multiply = () => 5 * 11 ;
 const divide = () => 77/7;
 
+const squareNumber = () => 3*3 ;
+
 //division
 
 const division =(a,b)=>{
     return a/b
 }
 division(10/20)
+
+const addition =(a,b)=>{
+    return a+b
+}
+addition(10,20)
