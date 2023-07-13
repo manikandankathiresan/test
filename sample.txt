@@ -35,3 +35,5 @@ const inBuildFunctions=()=>{
 }
 
 const arrowFunction=()=>console.log("No need to use return keyword for single line fn")
+
+const powerFunction=(a)=>a**a
