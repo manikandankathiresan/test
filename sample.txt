@@ -29,5 +29,12 @@ const divide = () => 77/7;
 
 const squareNumber = () => 3*3 ;
 
+const inBuildFunctions=()=>{
+    console.log(number.toString())
+    console.log(string.toUpperCase())
+}
+
+const arrowFunction=()=>console.log("No need to use return keyword for single line fn")
+
 const maribro = () =>  return 99+ 89 ;
 const class = "gitwork test";
