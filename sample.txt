@@ -1,2 +1,3 @@
 hii
 console.log("First Entry")
+sample two deleted
