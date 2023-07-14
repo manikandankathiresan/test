@@ -13,3 +13,15 @@ function myFunction(value, index, array) {
   txt += value + " "; 
 }
 let output=txt
+
+//object.keys method("Vishva Implementation")
+
+const object1 = {
+  a: 'somestring',
+  b: 42,
+  c: false
+};
+
+console.log(Object.keys(object1));
+
+//output:[ 'a', 'b', 'c' ]
