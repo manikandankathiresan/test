@@ -13,3 +13,21 @@ function myFunction(value, index, array) {
   txt += value + " "; 
 }
 let output=txt
+
+//sathish object.values method
+// object methods 
+
+//method definition
+
+const object1 = {
+  a: 'somestring',
+  b: 42,
+  c: false
+};
+
+
+//method execution
+
+console.log(Object.values(object1));
+
+// output [ 'somestring', 42, false ]
