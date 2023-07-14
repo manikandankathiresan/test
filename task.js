@@ -14,6 +14,23 @@ function myFunction(value, index, array) {
 }
 let output=txt
 
+//sathish object.values method
+// object methods 
+
+//method definition
+
+const object2 = {
+  a: 'somestring',
+  b: 42,
+  c: false
+};
+
+
+//method execution
+
+console.log(Object.values(object2));
+
+// output [ 'somestring', 42, false ]
 // object entries
 
 const object1 = {

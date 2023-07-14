@@ -10,6 +10,22 @@ console.log(result);
 
 //output [ 'exuberant', 'destruction', 'present' ]
 
+// object methods 
+
+//method definition
+
+const object2 = {
+    a: 'somestring',
+    b: 42,
+    c: false
+  };
+  
+
+//method execution
+
+  console.log(Object.values(object2));
+
+// output [ 'somestring', 42, false ]
 //boopesh object entries
 
 const object1 = {
