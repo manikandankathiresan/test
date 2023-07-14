@@ -1,20 +1,22 @@
+//showmessage for return
 const arrowFunction=()=>console.log("No need to use return keyword for single line fn")
 
+arrowFunction();
 
-const class = "gitwork test";
-changes add by sathish
+//show conflict data message
 const conflict = () => {
     let datafile = "lot of conflict affected"
     return datafile
 }
 conflict();
 
-hi sathish. welcome
 
 
 
+// Divide
 
-const formSubmissionFunction=(e)=>e.target.value
+const Divide = () =>  10  /  5 ;
+Divide();
 
 
 
