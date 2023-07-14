@@ -6,9 +6,12 @@ console.log(map1);
 
 //output : [ 2, 8, 18, 32 ]
 
-//object.keys method
+//sathish object.values method
+// object methods 
 
-const object1 = {
+//method definition
+
+const object2 = {
     a: 'somestring',
     b: 42,
     c: false
@@ -17,3 +20,21 @@ const object1 = {
   console.log(Object.keys(object1));
 
   //output:[ 'a', 'b', 'c' ]
+  
+  //method execution
+  
+  console.log(Object.values(object2));
+  
+  // output [ 'somestring', 42, false ]
+  
+
+//boopesh object entries
+
+const object1 = {
+    a: 'somestring',
+    b: 42
+  };
+  
+  for (const [key, value] of Object.entries(object1)) {
+    console.log(`${key}: ${value}`);
+  }

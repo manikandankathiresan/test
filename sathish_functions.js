@@ -10,9 +10,36 @@ console.log(result);
 
 //output [ 'exuberant', 'destruction', 'present' ]
 
-//object.keys method("Vishva Implementation")
+// object methods 
+
+//method definition
+
+const object2 = {
+    a: 'somestring',
+    b: 42,
+    c: false
+  };
+  
+
+//method execution
+
+  console.log(Object.values(object2));
+
+// output [ 'somestring', 42, false ]
+//boopesh object entries
 
 const object1 = {
+    a: 'somestring',
+    b: 42
+  };
+  
+  for (const [key, value] of Object.entries(object1)) {
+    console.log(`${key}: ${value}`);
+  }
+
+//object.keys method("Vishva Implementation")
+
+const object3 = {
     a: 'somestring',
     b: 42,
     c: false
