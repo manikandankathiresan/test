@@ -1,5 +1,3 @@
-1. Start new
-
 //Multiplication
 
 const multiply=(a,b)=>{
