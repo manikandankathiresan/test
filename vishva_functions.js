@@ -1,28 +1,37 @@
-//factorial function
-const factorial=(num)=>{
-    let fact=1
-    for(let i=1;i<=num;i++){
-        return fact=fact*1
-    }
-}
-factorial(4)
+//map function
 
-//multiply function
-const multiply = () => 5 * 11 
-multiply()
+const array1 = [1, 4, 9, 16];
+const map1 = array1.map(x => x * 2);
+console.log(map1);
 
-//divide function
-const divide = () => 77/7
-divide()
+//output : [ 2, 8, 18, 32 ]
 
-//squareNumber function
-const squareNumber = () => 3*3 
-squareNumber()
+//sathish object.values method
+// object methods 
 
-//inbuild function
-const inBuildFunctions=()=>{
-    console.log(number.toString())
-    console.log(string.toUpperCase())
-}
-inBuildFunctions()
-console.log("Vishwa functions");
+//method definition
+
+const object2 = {
+    a: 'somestring',
+    b: 42,
+    c: false
+  };
+  
+  
+  //method execution
+  
+  console.log(Object.values(object2));
+  
+  // output [ 'somestring', 42, false ]
+  
+
+//boopesh object entries
+
+const object1 = {
+    a: 'somestring',
+    b: 42
+  };
+  
+  for (const [key, value] of Object.entries(object1)) {
+    console.log(`${key}: ${value}`);
+  }

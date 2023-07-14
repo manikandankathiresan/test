@@ -1,30 +1,43 @@
-//Multiplication
-const multiply = (a, b) => {
-  return a * b;
-};
-console.log(multiply(10,20))
+// forEach
+// definition
+// execution
 
-//greetFunction
-const greetFunction = () => {
-    return "Good evening"
-};
-console.log(greetFunction());
+// The forEach() method calls a function (a callback function) once for each array element.
+const numbers = [45, 4, 9, 16, 25];
 
-// name function
-const data = () => {
-  let name = "sathish";
-  return name;
-};
-console.log(data());
+let txt = "";
+numbers.forEach(myFunction);
+console.log(txt);
 
-//subtraction
-const subtraction = (a, b) => {
-  return a - b;
-};
-console.log(subtraction(20, 10));
-
-// github
-const github = () =>{
-return 5+6
+function myFunction(value, index, array) {
+  txt += value + " "; 
 }
-console.log(github());
+let output=txt
+
+//sathish object.values method
+// object methods 
+
+//method definition
+
+const object2 = {
+  a: 'somestring',
+  b: 42,
+  c: false
+};
+
+
+//method execution
+
+console.log(Object.values(object2));
+
+// output [ 'somestring', 42, false ]
+// object entries
+
+const object1 = {
+    a: 'somestring',
+    b: 42
+  };
+  
+  for (const [key, value] of Object.entries(object1)) {
+    console.log(`${key}: ${value}`);
+  }
