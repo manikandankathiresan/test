@@ -37,3 +37,15 @@ const object1 = {
     console.log(`${key}: ${value}`);
   }
 
+//object.keys method("Vishva Implementation")
+
+const object3 = {
+    a: 'somestring',
+    b: 42,
+    c: false
+  };
+  
+  console.log(Object.keys(object1));
+
+  //output:[ 'a', 'b', 'c' ]
+

@@ -17,6 +17,9 @@ const object2 = {
     c: false
   };
   
+  console.log(Object.keys(object1));
+
+  //output:[ 'a', 'b', 'c' ]
   
   //method execution
   
